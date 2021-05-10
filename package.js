@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('promise');
   api.use('reactive-dict');
   api.use('reload');
-  api.use('meteorhubdotnet:iron-router', 'client', { weak: true });
+  api.use('meteorhubdotnet:firestorm-iron-router', 'client', { weak: true });
   // api.use('kadira:flow-router@2.6.2', 'client', {weak: true});
   api.addFiles('client/hot-code-push.js', 'client');
   api.addFiles('client/router-autoscroll.js', 'client');
